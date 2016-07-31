@@ -4,7 +4,7 @@ if [ $# -ne 0 ]; then
     cd $1
 fi
 
-json=$(curl -s https://raw.githubusercontent.com/heyitsolivia/secretpuppies/master/puppies.json) #download the json file containing the names of all the online files
+json=$(curl -s https://raw.githubusercontent.com/heyitsolivia/secretpuppies/gh-pages/puppies.json) #download the json file containing the names of all the online files
 
 delimiter="\""
 
