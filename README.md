@@ -1,0 +1,3 @@
+This shell script checks a json file that has a list of every mp4 file on openpuppies.com. It then goes through each listing, and if the file does not already exist locally (but it does exist on the server), it downloads it.
+
+You can set up a cron job to run this once a day, once a week, once a month, etc. to download new puppy files when they are added. Because the script does not overwrite existing files, there’s no need to worry about constant file writing if you run the script often.
